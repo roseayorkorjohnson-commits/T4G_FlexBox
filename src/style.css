@@ -98,14 +98,19 @@ body{
     color:#d63384;
 }
 
-.hero-image{
-    flex:1;
-    text-align:center;
-}
+.hero{
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+                url("../images/back.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 
-.hero-image img{
-    width:100%;
-    max-width:500px;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 /* Shop */
